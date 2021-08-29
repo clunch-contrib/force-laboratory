@@ -1,4 +1,10 @@
 <template>
+    <a href="https://github.com/clunch-contrib/force-laboratory" target="_blank">Fork Me on Github</a>
+    <h2>
+        力图实验用例，基于
+        <a href="https://hai2007.gitee.io/image2d/" target="_blank" rel="noopener noreferrer">image2D</a>
+        开发，用于探索力图算法的最佳实践。
+    </h2>
     <div id="painter"></div>
 </template>
 <script>
@@ -145,5 +151,45 @@
         outline: 1px solid red;
         display: inline-block;
         margin: 10px;
+    }
+
+    [quickpaper] {
+        position: relative;
+
+        h2 {
+            position: absolute;
+            background-color: #cec8c8;
+            color: white;
+            padding: 5px 10px;
+            font-size: 14px;
+            right: 20px;
+            top: 20px;
+            user-select: none;
+            box-shadow: -4px 4px 5px 1px #2b2828;
+
+            &>a {
+                text-decoration: underline;
+                color: rgb(65, 121, 243);
+                padding: 0 10px;
+            }
+        }
+
+        &>a {
+            user-select: none;
+            position: fixed;
+            transform: rotate(45deg);
+            line-height: 1.6em;
+            transform-origin: 150px 23px;
+            text-align: center;
+            font-family: sans-serif;
+            display: inline-block;
+            bottom: 53px;
+            left: -91px;
+            width: 300px;
+            background-color: #03a9f4;
+            outline: 4px solid #03a9f4;
+            border: 2px dashed #ffffff;
+            color: #ffffff;
+        }
     }
 </style>

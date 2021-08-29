@@ -1,5 +1,5 @@
 # force-laboratory
-力图实验用例，基于image2D开发，用于探索力图算法的最佳实践。
+力图实验用例，基于[image2D](https://hai2007.gitee.io/image2d/)开发，用于探索力图算法的最佳实践。
 
 <p align='center'>
     <img src='./force.gif'>

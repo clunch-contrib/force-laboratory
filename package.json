@@ -1,6 +1,6 @@
 {
   "name": "force-laboratory",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "力图实验用例，基于image2D开发，用于探索力图算法的最佳实践。",
   "scripts": {
     "start": "npm install && npm run dev",

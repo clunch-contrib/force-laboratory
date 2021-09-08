@@ -27,6 +27,6 @@ npm run build
 
 开源协议
 ---------------------------------------
-[Apache-2.0](https://github.com/clunch-contrib/force-laboratory/blob/master/LICENSE)
+[MIT](https://github.com/clunch-contrib/force-laboratory/blob/master/LICENSE)
 
 Copyright (c) 2021 [hai2007](https://hai2007.gitee.io/sweethome/) 走一步，再走一步。

@@ -1,4 +1,4 @@
-import _coulomb_law from './Coulomb\'s law';
+import _coulomb_law from "./Coulomb-law";
 import {
     _Velocity_Verlet_P,
     _Velocity_Verlet_V
